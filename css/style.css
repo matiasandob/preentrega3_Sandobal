@@ -27,17 +27,20 @@ header .logo img {
 header .logo:hover {
   transform: scale(1.2);
 }
-header .navlinks {
+header .nav-links {
   display: inline-block;
   padding: 0 30px;
 }
-header .navlinks li {
+header .nav-links li {
   display: inline-block;
   padding: 0 30px;
 }
-header .navlinks a {
+header .nav-links a {
   color: #ecebeb;
   font-size: 700;
+}
+header .nav-links a:hover {
+  color: rgb(44, 44, 44);
 }
 header .btn button {
   font-weight: 700;

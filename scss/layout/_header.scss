@@ -17,7 +17,7 @@ header {
         &:hover {
             transform: scale(1.2);}}
 
-    .navlinks {
+    .nav-links {
     display: inline-block;
     padding: 0 30px;
 
@@ -25,8 +25,9 @@ header {
         padding: 0 30px;}
     
     a {color: #ecebeb;
-        font-size: 700;}
-}
+        font-size: 700;
+        &:hover {
+        color: rgb(44, 44, 44);}}}
 
 .btn button {
     font-weight: 700;
